@@ -1,8 +1,7 @@
 {
   "name": "pw-cucumber",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Boilerplate for Playwright with Cucumber",
   "scripts": {
     "delete-reports": "rimraf ./test-result/* || true",
     "pretest": "npm run delete-reports",
@@ -17,7 +16,7 @@
     "url": "git+https://github.com/dshaplyko/pw-cucumber.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "dmitryshaplyko@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dshaplyko/pw-cucumber/issues"
@@ -31,9 +30,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
-    "typescript": "^5.0.3"
-  },
-  "dependencies": {
+    "typescript": "^5.0.3",
     "@cucumber/cucumber": "^9.1.0",
     "eslint-config-prettier": "^8.8.0",
     "prettier": "^2.8.7",

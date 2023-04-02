@@ -1,5 +1,5 @@
-import { Page } from '@playwright/test';
+import App from '../../po';
 
 export const pageFixture = {
-  page: undefined as Page,
+  app: undefined as App,
 };

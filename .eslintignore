@@ -2,3 +2,5 @@
 /build
 /common
 package-lock.json
+cucumber-report.*
+/test-result
