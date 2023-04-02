@@ -7,6 +7,7 @@
     "publishQuiet": true,
     "dryRun": false,
     "require": ["src/test/steps/*.ts", "src/test/hooks/hooks.ts"],
-    "requireModule": ["ts-node/register"]
+    "requireModule": ["ts-node/register"],
+    "format": ["html:cucumber-report.html"]
   }
 }
