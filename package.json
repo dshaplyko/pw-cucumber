@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "delete-reports": "rimraf ./test-result/* || true",
+    "pretest": "npm run delete-reports",
     "check-format": "prettier --check .",
     "check-lint": "eslint . --ext ts --fix",
     "check-all": "npm run format && npm run check-lint",
@@ -35,6 +37,7 @@
     "@cucumber/cucumber": "^9.1.0",
     "eslint-config-prettier": "^8.8.0",
     "prettier": "^2.8.7",
+    "rimraf": "^4.4.1",
     "ts-node": "^10.9.1"
   }
 }
